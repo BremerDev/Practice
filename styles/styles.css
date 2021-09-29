@@ -1,0 +1,15 @@
+body {
+    padding: 2%;
+}
+
+/* navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home {
+    
+}
+
