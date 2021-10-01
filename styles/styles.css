@@ -6,6 +6,7 @@ font-family: 'Source Sans Pro', sans-serif;
 
 body {
     padding: 2%;
+    background-color: bisque;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -16,6 +17,7 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
     font-family: 'Open Sans Condensed', sans-serif; 
+    line-height: 1.5;
 }
 
 blockquote {
@@ -25,6 +27,7 @@ blockquote {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 /* navbar */
@@ -36,10 +39,31 @@ a {
 
 .home {
     position: absolute;
-    left: 2%;
+    left: 4%;
 }
 
 .navitem {
     padding: 0% 2%;
 }
 
+/* main */
+
+.section-one {
+    padding-top: 1.5rem;
+}
+
+.titleHead {
+    text-align: center;
+}
+
+blockquote {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+/* footer */
+
+.section-three {
+    text-align: center;
+    padding-top: .5rem;
+}
