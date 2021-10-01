@@ -1,15 +1,45 @@
+/* fonts 
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+*/
+
 body {
     padding: 2%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif; 
+}
+
+blockquote {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* navbar */
 
 .navbar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .home {
-    
+    position: absolute;
+    left: 2%;
+}
+
+.navitem {
+    padding: 0% 2%;
 }
 
